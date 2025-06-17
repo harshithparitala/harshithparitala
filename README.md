@@ -1,7 +1,5 @@
 ## Hi there 👋
 
-# Harshith Paritala 👋
-
 Final-year B.Tech (ECE) @ Amrita Vishwa Vidyapeetham (Class of ’26)
 
 ---
@@ -68,8 +66,6 @@ Implemented a low‑cost IoT health monitor: Arduino-based pulse oximeter transm
   Implemented OTA firmware enablement for ESP32 modules using the A7672S cellular module, designing remote update mechanisms and validation workflows for reliable field deployment.
 
   
-  Supported development and integration testing of satellite communication modules under faculty mentorship.
-
 ---
 
 ## 📜 Certifications
