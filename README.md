@@ -10,7 +10,7 @@ Passionate VLSI enthusiast specializing in accelerator design and semiconductor 
 ---
 
 ## 🎓 Education
-- **B.Tech, Electronics & Communication Engineering** (GPA: 7.82)  
+- **B.Tech, Electronics & Communication Engineering** (GPA: 7.89)  
   Amrita Vishwa Vidyapeetham, Coimbatore | Nov 2022 – Jun 2026
 - **Intermediate (Board of Intermediate Education)** (93.1%)  
   Narayana Junior College, Nellore | Jun 2020 – Mar 2022
