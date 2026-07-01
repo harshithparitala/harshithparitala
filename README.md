@@ -8,7 +8,7 @@ Electronics & Communication Engineer specializing in RTL-to-GDSII digital design
 <p align="center">
 <a href="mailto:saiharshith.paritala@gmail.com">Email</a> ·
 <a href="https://github.com/harshithparitala">GitHub</a> ·
-<a href="#">LinkedIn</a>
+<a href="https://www.linkedin.com/in/harshith-paritala-7b7509254/">LinkedIn</a>
 </p>
 
 ---
