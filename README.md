@@ -1,5 +1,5 @@
 <h1 align="center">Harshith Paritala</h1>
-<h3 align="center">ASIC / Physical Design Engineer · RTL Design  · Open-Source VLSI</h3>
+<h3 align="center">ASIC / Physical Design Engineer Enthusiast · Cadence Innovus · Open-Source VLSI</h3>
 
 <p align="center">
 Electronics & Communication Engineer specializing in RTL-to-GDSII digital design flows, physical implementation, and open-source silicon (Sky130 / OpenLane). Building accelerator architectures and semiconductor devices from RTL through tapeout.
