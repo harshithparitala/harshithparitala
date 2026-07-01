@@ -1,5 +1,5 @@
 <h1 align="center">Harshith Paritala</h1>
-<h3 align="center">ASIC / Physical Design Engineer · RTL Design · FPGA Development · Open-Source VLSI</h3>
+<h3 align="center">ASIC / Physical Design Engineer · RTL Design  · Open-Source VLSI</h3>
 
 <p align="center">
 Electronics & Communication Engineer specializing in RTL-to-GDSII digital design flows, physical implementation, and open-source silicon (Sky130 / OpenLane). Building accelerator architectures and semiconductor devices from RTL through tapeout.
@@ -31,7 +31,6 @@ I'm currently deepening my skills in advanced physical design: clock tree synthe
 | **ASIC Physical Design** | Floorplanning, placement, CTS, routing, timing closure (OpenROAD, Cadence Innovus) |
 | **Physical Verification** | DRC, LVS, tapeout-readiness sign-off using Sky130 |
 | **Design Verification** | Testbench development, functional coverage, waveform-based debug |
-| **FPGA Development** | Basys3 (Artix-7), PYNQ, VSD Squadron Mini — synthesis to hardware validation |
 | **Open-Source ASIC Flow** | OpenLane, Sky130 PDK, Yosys, full RTL-to-GDSII flows |
 | **Research** | CGRA architecture exploration, GaN HEMT device simulation |
 
@@ -76,14 +75,12 @@ I'm currently deepening my skills in advanced physical design: clock tree synthe
 - **Approach:** Synthesized and place-and-routed an 8-bit ALU, applying SDC constraints, clock tree synthesis, and static timing analysis to close on setup/hold.
 - **Tools:** Cadence Innovus, Verilog, SDC
 - **Key Achievements:** Delivered a complete, sign-off-ready design with documented timing (WNS/TNS), utilization, and DRC metrics.
-- **Repository:** [link]
 
 ### Physical Verification for Tapeout Readiness — Sky130
 **Open-source physical verification** project preparing a design for tapeout.
 - **Problem:** Ensure a physical layout meets DRC and LVS sign-off criteria on an open PDK.
 - **Approach:** Ran design rule and layout-vs-schematic checks against the Sky130 PDK to validate tapeout readiness.
 - **Tools:** Sky130 PDK, open-source PV tools
-- **Repository:** [link]
 
 ### 3×3 Systolic Array — Dual-Mapped ASIC & FPGA
 **Parallel matrix-multiplication accelerator** implemented for both open-source silicon and FPGA fabric.
@@ -91,14 +88,12 @@ I'm currently deepening my skills in advanced physical design: clock tree synthe
 - **Approach:** Designed a 3×3 systolic array in Verilog, mapped it to Sky130 ASIC flow (`tt-gf180-systolic-array`) and separately synthesized it for Artix-7 FPGA (`systolic_array-3x3-matrix`), verifying parallel throughput on both targets.
 - **Tools:** Verilog, OpenLane/Sky130, Vivado, Basys3
 - **Key Achievements:** Validated the same architecture across two physically distinct implementation targets.
-- **Repositories:** [link] · [link]
 
 ### PicoRV32a RISC-V SoC — RTL to GDSII
 **Open-source RISC-V core** carried through gate-level simulation and physical implementation on Sky130.
 - **Problem:** Implement and verify a RISC-V SoC using a fully open-source ASIC toolchain.
 - **Approach:** Ran the PicoRV32a core through OpenLane, performed gate-level simulation (GLS) to confirm post-synthesis functional equivalence.
 - **Tools:** OpenLane, Sky130 PDK, Verilog
-- **Repository:** [link]
 
 ### CGRA Architecture Research — HyCube Scalability
 **Reconfigurable architecture research** benchmarking routing efficiency in coarse-grained reconfigurable arrays.
@@ -106,34 +101,29 @@ I'm currently deepening my skills in advanced physical design: clock tree synthe
 - **Approach:** Used the HyCube framework and CGRA-ME compiler infrastructure to benchmark routing node utilization across configurations.
 - **Tools:** HyCube, CGRA-ME
 - **Key Achievements:** Achieved a 96.5% reduction in required routing nodes through architectural exploration.
-- **Repositories:** `CGRA_ME` · `morpher_cgra` [links]
 
 ### Counter — ASIC vs. FPGA Comparison
 **Comparative implementation study** of the same RTL design across ASIC and FPGA flows.
 - **Problem:** Quantify differences in area, timing, and resource usage between ASIC and FPGA implementations of an identical design.
 - **Approach:** Implemented a counter in Verilog and independently carried it through both an ASIC flow and FPGA synthesis, comparing results.
 - **Tools:** Verilog, OpenLane/Sky130, Vivado
-- **Repository:** [link]
 
 ### BCD-to-7-Segment Decoder with SystemVerilog Testbench
 **Verification-focused project** demonstrating structured testbench methodology.
 - **Problem:** Verify combinational decoder logic against expected truth-table behavior.
 - **Approach:** Built a SystemVerilog testbench with self-checking assertions to validate decoder outputs across all input combinations.
 - **Tools:** SystemVerilog
-- **Repository:** `fulladder` / related decoder work [link]
 
 ### Square Wave Generator Metronome — VHDL, Basys3
 **FPGA-based timing generator** with VGA and audio output.
 - **Problem:** Generate a frequency-controlled square wave for a hardware metronome application.
 - **Approach:** Designed a 4-bit frequency-controlled generator in VHDL with VGA display and passive buzzer interfacing, verified on Basys3 hardware.
 - **Tools:** VHDL, Basys3
-- **Repository:** [link]
 
 ### Pmod Keypad Interfacing — VHDL, Basys3
 **Peripheral interfacing project** connecting a matrix keypad to FPGA fabric.
 - **Approach:** Implemented keypad scanning and debounce logic in VHDL, interfaced via Pmod connector on Basys3.
 - **Tools:** VHDL, Basys3
-- **Repository:** [link]
 
 ---
 
@@ -149,18 +139,20 @@ Conducted device-level simulation and optimization of GaN High Electron Mobility
 
 ## Experience
 
-**Engineering Intern — Firmware & Systems, SATCARD (IIT Palakkad)**
-Implemented OTA firmware update mechanisms for ESP32 modules over the A7672S cellular module, designing remote update and validation workflows for reliable field deployment. *(`NodeMCU-OTA-Updates`)*
+**ASIC Physical Design & Verification Intern — Entuple Technologies** · *Jan 2026 – Mar 2026 · Remote*
+Completed hands-on ASIC Physical Design implementation exercises spanning synthesis, floorplanning, placement, clock tree synthesis, routing, and static timing analysis using Cadence-based workflows. Analyzed timing reports, setup/hold violations, clock constraints, and DRC/LVS checks across design implementation labs.
 
-**Hardware Intern — VLSI System Design**
-Contributed to RTL verification and synthesis for ASIC prototyping using industry-standard toolchains, supporting design correctness ahead of physical implementation.
+**Engineering Intern — SATCARD, IIT Palakkad** · *Apr 2025 – Jun 2025 · Embedded Systems & Firmware*
+Architected an OTA firmware update pipeline for ESP32 with resumable download and multi-stage recovery logic, raising update success from ~60% to near-complete across test devices. Reduced manual intervention steps from five to one during interrupted-transfer recovery by implementing fault-tolerant state-machine logic in C, covering four distinct failure scenarios. *(`NodeMCU-OTA-Updates`)*
 
 ---
 
 ## Certifications
 
-- Samsung ISWDP Fellowship — Level 1 & Level 2
-- Fundamentals of SystemVerilog — Namaste FPGA
+- **Samsung ISWDP Fellowship** — Level 1: Semiconductor Devices & TCAD · Level 2: Advanced Device Modeling & Simulation
+- **Fundamentals of SystemVerilog** — Namaste FPGA
+- **SoC Design and Planning** — VLSI System Design
+- **Physical Design** — Entuple Technologies
 
 ---
 
@@ -170,7 +162,6 @@ Contributed to RTL verification and synthesis for ASIC prototyping using industr
 |---|---|
 | **ASIC / Physical Design** | RTL-to-GDSII flows, Cadence Innovus, physical verification |
 | **RTL & Verification** | Verilog, SystemVerilog, VHDL, testbench development |
-| **FPGA** | Basys3, PYNQ, VSD Squadron Mini implementations |
 | **Research** | CGRA architecture, GaN HEMT device modeling |
 | **Embedded Systems** | ESP32 OTA firmware, sensor interfacing, PCB design |
 | **Open Source** | OpenLane / Sky130 RTL-to-GDSII projects |
@@ -179,7 +170,7 @@ Contributed to RTL verification and synthesis for ASIC prototyping using industr
 
 ## Currently Learning
 
-Advanced Physical Design · Clock Tree Synthesis · Multi-Corner STA · Timing Closure · ECO Flows · OpenROAD · Digital IC Design
+Advanced Physical Design · Clock Tree Synthesis  · Timing Closure · ECO Flows · OpenROAD 
 
 ---
 
@@ -189,4 +180,4 @@ I'm actively pursuing roles in ASIC Physical Design, RTL/Digital Design, and Des
 
 - **Email:** saiharshith.paritala@gmail.com
 - **GitHub:** [github.com/harshithparitala](https://github.com/harshithparitala)
-- **LinkedIn:** [add link]
+- **LinkedIn:** [https://www.linkedin.com/in/harshith-paritala-7b7509254/]
