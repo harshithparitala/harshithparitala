@@ -180,4 +180,4 @@ I'm actively pursuing roles in ASIC Physical Design, RTL/Digital Design, and Des
 
 - **Email:** saiharshith.paritala@gmail.com
 - **GitHub:** [github.com/harshithparitala](https://github.com/harshithparitala)
-- **LinkedIn:** [https://www.linkedin.com/in/harshith-paritala-7b7509254/]
+- **LinkedIn:** https://www.linkedin.com/in/harshith-paritala-7b7509254/
